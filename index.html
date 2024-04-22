@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dribbble Main Page</title>
+  <title>Dribbble</title>
   <!-- Include Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
   <!-- Header -->
-  <header class="bg-white shadow-md py-4">
-    <div class="container mx-auto px-4">
-      <h1 class="text-2xl font-bold text-gray-800">Dribbble</h1>
+  <header class="flex bg-white shadow-md py-4">
+    <div class=" ml-4 px-4">
+      <h1 class="text-2xl font-bold text-gray-800">Popular</h1>
     </div>
+    <nav class="px-4 content-center">
+        <ul class="flex text-center gap-4">
+            <li class="px-4 py-2 bg-gray-100 rounded-xl ">Discover</li>
+            <li class="px-4 py-2 ">Animation</li>
+            <li class="px-4 py-2">Branding</li>
+            <li class="px-4 py-2 ">Illustration</li>
+            <li class="px-4 py-2">Mobile</li>
+            <li class="px-4 py-2">Print</li>
+        </ul>
+      </nav>
   </header>
+
+
 
   <!-- Main -->
   <div class="container mx-auto px-4 py-8">
     <!-- title -->
     <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">Featured Shots</h2>
+      
       <!-- set grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-16">
         <!-- card -->
         <div class="bg-white rounded-lg shadow-md">
           <img src="https://via.placeholder.com/400x300" alt="Shot" class="rounded-t-lg">
